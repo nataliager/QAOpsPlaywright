@@ -1,0 +1,4 @@
+All card titles: ADIDAS ORIGINAL,ZARA COAT 3,iphone 13 pro
+Total products: 3
+orderId: | 69ebfd83f86ba51a65846fcb |
+orderIdText: 69ebfd83f86ba51a65846fcb

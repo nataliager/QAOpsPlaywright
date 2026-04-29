@@ -1,0 +1,6 @@
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWU2OWYyNGY4NmJhNTFhNjU3NzYzMjQiLCJ1c2VyRW1haWwiOiJtYXJpZS52YWxlbmNpYUBleGFtcGxlLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NzcwNzc1MzIsImV4cCI6MTgwODYzNTEzMn0.Ev8k-0BZkpsG5HA2J7ftKrNifPFsRgN2GvvjRcZJ6nM
+{
+  orders: [ '69ec0d1cf86ba51a65847e61' ],
+  productOrderId: [ '6960eae1c941646b7a8b3ed3' ],
+  message: 'Order Placed Successfully'
+}
