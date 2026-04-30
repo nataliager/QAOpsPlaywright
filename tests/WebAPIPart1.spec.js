@@ -1,5 +1,5 @@
 import { test, expect, request } from '@playwright/test';
-import { ApiUtils } from '../utils/ApiUtils';
+import { APIUtils } from '../utils/apiutils';
 
 const loginPayload = {userEmail: "marie.valencia@example.com", userPassword: "Password123@"};
 const orderPayload = {orders: [{country: "Colombia", productOrderedId: "6960eae1c941646b7a8b3ed3"}]};
@@ -8,7 +8,7 @@ let apiContext;
 
 test.beforeAll(async () => {
     apiContext = await request.newContext();
-    const apiUtils = new ApiUtils(apiContext, loginPayload);
+    const apiUtils = new APIUtils(apiContext, loginPayload);
     response = await apiUtils.createOrder(orderPayload);
 });
 
