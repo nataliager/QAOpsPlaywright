@@ -25,6 +25,7 @@ jobs:
         AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
         AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
         AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+        PLAYWRIGHT_SERVICE_ACCESS_TOKEN: ${{ secrets.PLAYWRIGHT_SERVICE_ACCESS_TOKEN }}
         DEBUG: pw:browser*
       run: |
         npx playwright test --config=playwright.service.config.js --list 2>&1 || true
