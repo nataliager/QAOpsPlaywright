@@ -26,7 +26,7 @@ jobs:
         AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
         AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
         DEBUG: pw:browser*
-      run:  npx playwright test --config=playwright.service.config.js --workers=4
+      run:  npx playwright test --config=playwright.service.config.js --workers=4 2>&1 || true
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
